@@ -1,0 +1,20 @@
+.gc-action-area {
+    width      : 10vw;
+    background-color: rgb(80, 255, 246);
+    margin: auto;
+    text-align: center;
+    
+}
+
+.gc-card {
+    width: 85vw;
+    background-color: darkgray;
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-y: auto;
+    .player-card{
+        margin: .5rem;
+        background-size: contain;
+        width: 5rem;
+    }
+}

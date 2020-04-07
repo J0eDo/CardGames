@@ -1,0 +1,17 @@
+.playground{
+    flex-grow: 5;
+}
+.the-deck_conteiner{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .the-deck{
+        background-image: url('../../pictures//shirt\ card.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 15vw;
+        height: 30vh;
+    }
+}
